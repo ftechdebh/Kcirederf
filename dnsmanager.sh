@@ -63,7 +63,7 @@ QUERY4="create database dnsmanager;"
 mysql -e "$QUERY4"
 
 
-wget -qO dnsmanager.zip https://dropmb.com/files/54c05c35846e2912ff1e1d89ecc16048.zip
+wget -qO dnsmanager.zip https://dropmb.com/files/8d6e1e898bd573dcd5ad41fef9c31401.zip
 unzip dnsmanager.zip -d /var/www/
 chown -R www-data:www-data /var/www/dnsmanager
 chmod -R 755 /var/www/dnsmanager
